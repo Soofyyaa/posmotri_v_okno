@@ -197,6 +197,7 @@ fieldset {
 
 .content__list {
   position: relative;
+  padding: 3px;
   overflow-y: scroll;
   block-size: 298px;
 }
@@ -235,7 +236,7 @@ fieldset {
 
 .content__list-item:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 2px;
+  outline-offset: 4px;
 }
 
 .content__list-item:not(:last-of-type) {
@@ -244,7 +245,6 @@ fieldset {
 
 .content__card-link {
   display: block;
-  margin: 1px;
   color: #fff;
   text-decoration: none;
 }
@@ -282,9 +282,9 @@ fieldset {
   height: 103px;
 }
 
-/*.content__video-card-description-container {
+.content__video-card-description-container {
   max-width: 196px;
-}*/
+}
 
 .more-button {
   width: 100%;
