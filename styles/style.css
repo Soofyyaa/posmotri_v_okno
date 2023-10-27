@@ -198,7 +198,7 @@ fieldset {
 .content__list {
   position: relative;
   padding: 3px;
-  overflow-y: scroll;
+  overflow: auto;
   block-size: 298px;
 }
 
